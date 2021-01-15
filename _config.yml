@@ -1,63 +1,32 @@
-# Build settings
-gems:
-  - jemoji
+title: Hackkery's Blog
+description: "Hackkery's Super Secret Security Blog"
+author:
+  name: "Hackkery"
+  email: "hackkery@protonmail.com"
+  url: "https://hackkery.com/blog"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 5
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-sitemap
 
-# Site settings
-title: "Hackkery"
-description: > # this means to ignore newlines until "email:"
-   Hackkery's Super Secret Security Blog
-
-email: hackkery@protonmail.com
-#blog logo
-logo: "/assets/images/logo.png"
-float_logo: true # true, false (default)
-
-# blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
-
-name: 'Hackkery'
-author: 'Hackkery'
-author_image: "/assets/images/logo.png"
-
-paginate:	5
-
-url: "https://hackkery.com" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
-twitter_handle: '@hackkery'
-
-#fill in disqus shortname to use disqus
-disqus: hackkery
-
-google_analytics: UA-71938375-1
-
-# social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/hackkery
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/hackkery
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+# Custom variables
+owner : "Hackkery"
+year : "2020"
