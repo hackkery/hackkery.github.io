@@ -1,3 +1,9 @@
-<a href="{{ "/archive" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">Archive</h2></a>
-<a href="{{ "/about" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">About</h2></a>
-<a href="{{ "/atom.xml" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">RSS</h2></a>
+<ul>
+  {% for item in site.menu %}
+    {% if item.title and item.url %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
