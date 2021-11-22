@@ -5,13 +5,8 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Hackkery" width="200">
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi! I'm Hackkery, a Junior Research Fellow from SASTRA Deemed to be University. My Doctoral Research is on Artificial Intelligence and Law. I also possess a Master's in Cyber Security. I aspire to create solutions which have a social impact. Founder and Leader of Team 1nf1n1ty, SASTRA's in-house Cybersecurity Team. Audiophile. Globetrotter to be. 

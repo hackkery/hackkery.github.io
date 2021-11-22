@@ -46,7 +46,7 @@ POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
-BLOG_URL="https://jekflix.rossener.com/"
+BLOG_URL="https://hackkery.com"
 
 # Set your assets URL
 ASSETS_URL="assets/img/"
@@ -119,7 +119,7 @@ echo "image:"
 echo "optimized_image:"
 echo "category:"
 echo "tags:"
-echo "author:"
+echo "author: hackkery"
 echo "paginate: false"
 echo "---"
 

@@ -1,8 +1,8 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: thiagorossener
-display_name: Thiago Rossener
+name: hackkery
+display_name: Hackkery
 position: Chief Editor
 bio: Just a developer.
 github_username: thiagorossener
