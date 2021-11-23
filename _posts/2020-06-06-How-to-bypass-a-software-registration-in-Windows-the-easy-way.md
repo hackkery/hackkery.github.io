@@ -5,8 +5,8 @@ title: "How to bypass a software registration in Windows the easy way."
 subtitle: Bypassing a software authentication in Windows using x32dbg debugger
 description: >-
     A quick way to bypass offline authentication of software in Windows
-image: 
-optimized_image:
+image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
+optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559820489/js-code_n83m7a.jpg
 category: blog
 tags:
   - welcome
